@@ -34,3 +34,12 @@ if usuario == "admin":
         print("Clave incorrecta")
 else:
     print("Usuario no reconocido")
+
+# variable = 2
+# match variable:
+#     case 1:
+#         # código si variable == valor1
+#     case 2:
+#         # código si variable == valor2
+#     case _:
+#         # caso por defecto (similar a default en otros lenguajes)

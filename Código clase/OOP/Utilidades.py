@@ -46,5 +46,6 @@ class Cuenta:
             self.__saldo = valor
 
 c = Cuenta(1200)
-c.saldo() # -> accedo al getter
-c.saldo(1400) # -> accedo al setter
+print(c.saldo) # -> accedo al getter
+c.saldo = 1400 # -> accedo al setter
+print(c.saldo) # -> accedo al getter
